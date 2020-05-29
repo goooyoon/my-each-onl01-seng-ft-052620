@@ -1,9 +1,9 @@
 def my_each(arguments)
 
-end 	
-while i < arguments.length
-  yield(arguments[i])
-  i += 1
-end
-arguments
+i = 0
+  while i < array.size
+    yield array[i]
+    i += 1
+  end
+  array
 end
